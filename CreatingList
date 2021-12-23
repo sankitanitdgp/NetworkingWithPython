@@ -23,3 +23,7 @@ print ("ssh position" + str(position))
 protocolList.remove("ssh")
 print(protocolList)
 # output: ['ftp', 'smtp', 'http']
+
+count = len(protocolList)
+print("protocol elements " + str(count))
+#output : protocol elements 3
