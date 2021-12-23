@@ -1,0 +1,25 @@
+# Creating list in Python using append function
+protocolList = []
+protocolList.append("ftp")
+protocolList.append("ssh")
+protocolList.append("smtp")
+protocolList.append("http")
+print (protocolList)
+
+# output : ['ftp', 'ssh', 'smtp', 'http']
+
+type(protocolList)
+# output : list
+
+len(protocolList)
+# 4
+
+#To access specific positions, we can use the index()
+#method, and to delete an element, we can use the
+#remove() method:
+position = protocolList.index("ssh")
+print ("ssh position" + str(position))
+# output :ssh position 1
+protocolList.remove("ssh")
+print(protocolList)
+# output: ['ftp', 'smtp', 'http']
