@@ -27,3 +27,10 @@ print(protocolList)
 count = len(protocolList)
 print("protocol elements " + str(count))
 #output : protocol elements 3
+#To print out the whole protocol list
+for protocol in protocolList:
+    print (protocol)
+#output: ftp
+#        smtp
+#        http
+
